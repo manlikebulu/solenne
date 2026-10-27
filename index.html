@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Solenne | Stay somewhere worth slowing down for</title>
+  <meta name="description" content="A collection of distinctive stays shaped by thoughtful design, natural beauty, and a sense of place.">
+  <meta name="theme-color" content="#faf8f5">
+
+  <link rel="preload" href="assets/fonts/Boldonse-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/PlusJakartaSans-VF.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <!-- ───────────── Navigation ───────────── -->
+  <header class="site-header" id="top">
+    <div class="nav wrap" id="nav">
+      <a class="logo" href="#top" aria-label="Solenne, back to top"><span>SOL</span><span class="logo__e">E</span><span>NNE</span></a>
+
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-panel" aria-label="Open menu">
+        <span class="nav-toggle__bars" aria-hidden="true"></span>
+      </button>
+
+      <div class="nav-panel" id="nav-panel">
+        <div class="nav-panel__inner">
+          <nav class="nav-links" aria-label="Primary">
+            <a href="#stays" data-section="stays">Stays</a>
+            <a href="#philosophy" data-section="philosophy">Philosophy</a>
+            <a href="#contact" data-section="contact">Journal</a>
+            <a href="#contact" data-section="contact">Contact</a>
+          </nav>
+          <div class="nav-actions">
+            <button class="btn btn--nav" type="button" data-search-open aria-haspopup="dialog">
+              <img src="assets/icons.svg" width="24" height="24" alt="">
+              Search
+            </button>
+            <a class="btn btn--nav btn--nav-outline" href="#stays">Book a stay</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ───────────── Hero ───────────── -->
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__inner wrap">
+        <div class="hero__headline">
+          <h1 id="hero-title">
+            <span class="line">Stay somewhere</span>
+            <span class="line">worth slowing</span>
+            <span class="line line--light">down for.</span>
+          </h1>
+        </div>
+
+        <div class="hero__media">
+          <img src="assets/img-frame.png" alt="A sunlit living space with natural textures and warm wood tones" width="1440" height="377">
+        </div>
+
+        <div class="hero__copy">
+          <p>Discover a collection of distinctive stays shaped by thoughtful design, natural beauty, and a sense of place. Whether you're seeking quiet mornings, unhurried afternoons, or a change of scenery, find a space that invites you to slow down and settle in.</p>
+          <div class="hero__actions">
+            <a class="btn btn--primary" href="#stays">Explore our stay</a>
+            <a class="btn btn--ghost" href="#philosophy">Discover our philosophy</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Philosophy ───────────── -->
+    <section class="philosophy" id="philosophy" aria-labelledby="philosophy-title">
+      <div class="philosophy__head wrap">
+        <h2 class="h2" id="philosophy-title">Our philosophy</h2>
+      </div>
+
+      <div class="banner">
+        <img class="banner__img" src="assets/image-18.png" alt="Warm evening light across a calm interior" loading="lazy">
+        <div class="banner__titlewrap wrap">
+          <p class="banner__title">A different pace</p>
+        </div>
+      </div>
+
+      <div class="wrap philosophy__body">
+        <div class="philosophy__text">
+          <p>The luxury of having nowhere else to be.</p>
+          <p>We believe the best escapes are not measured by how far you travel, but by how different you feel when you arrive. A slower morning. A room filled with natural light. A place that invites you to put your phone down and stay a little longer.</p>
+          <p>That's why we seek out distinctive spaces with character, thoughtful details, and a connection to their surroundings. Places that offer more than a change of scenery. They offer a change of pace.</p>
+        </div>
+
+        <div class="ph-rows">
+          <div class="ph-row ph-row--1">
+            <figure class="crop crop--12"><img src="assets/image-12.png" alt="" loading="lazy"></figure>
+            <div class="ph-copy">
+              <h3>Thoughtful spaces</h3>
+              <p>Interiors chosen for character, comfort, and quiet beauty.</p>
+              <a class="btn btn--ghost btn--ghost-sand" href="#stays">Discover the SOLENNE philosophy</a>
+            </div>
+            <figure class="crop crop--12 ph-peek" aria-hidden="true"><img src="assets/image-12.png" alt="" loading="lazy"></figure>
+          </div>
+
+          <div class="ph-row ph-row--2">
+            <figure class="crop crop--14"><img src="assets/image-14.png" alt="" loading="lazy"></figure>
+            <div class="ph-copy">
+              <h3>A sense of place</h3>
+              <p>Stays that feel connected to the world just outside.</p>
+              <a class="btn btn--ghost btn--ghost-sand" href="#stays">Discover the SOLENNE philosophy</a>
+            </div>
+            <figure class="crop crop--14 ph-peek" aria-hidden="true"><img src="assets/image-14.png" alt="" loading="lazy"></figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ───────────── Stays ───────────── -->
+    <section class="stays" id="stays" aria-labelledby="stays-title">
+      <div class="stays__inner wrap">
+        <div class="section-heading">
+          <h2 class="display" id="stays-title">Find your kind of escape.</h2>
+          <p>From secluded coastal retreats to quiet countryside hideaways, discover distinctive places that invite you to see the world at a different pace.</p>
+        </div>
+
+        <!-- Featured stay -->
+        <article class="featured" data-stay data-stay-name="The Coastal House" data-stay-desc="A light-filled retreat designed for unhurried mornings, long afternoons by the water.">
+          <div class="featured__copy">
+            <div class="eyebrow"><span class="eyebrow__rule" aria-hidden="true"></span><span>Featured stay</span></div>
+            <div class="featured__block">
+              <h3 class="h2">The Coastal House</h3>
+              <p>A light-filled retreat designed for unhurried mornings, long afternoons by the water, and evenings that feel as quiet as the landscape.</p>
+            </div>
+            <ul class="chips">
+              <li>3 bedrooms</li>
+              <li>Ocean views</li>
+              <li>Private terrace</li>
+            </ul>
+            <div class="featured__actions">
+              <a class="btn btn--primary" href="#">Explore the stay</a>
+              <a class="btn btn--sage" href="#">View gallery</a>
+            </div>
+          </div>
+
+          <div class="featured__image">
+            <img class="featured__bg" src="assets/image-15.png" alt="Coastal House living area at golden hour" loading="lazy">
+            <div class="featured__card">
+              <div class="featured__card-img"><img src="assets/image-5.png" alt="" loading="lazy"></div>
+              <div class="featured__card-copy">
+                <p class="featured__card-title">The Coastal House</p>
+                <p class="featured__card-text">For mornings that begin with the sea and evenings that never feel rushed.</p>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Stay grid -->
+        <div class="stay-grid">
+          <article class="stay-card" data-stay data-stay-name="The Orchard Studio" data-stay-desc="A quiet retreat with soft light, thoughtful textures, and a sense of stillness.">
+            <div class="stay-card__image"><img src="assets/image-12.png" alt="Interior of The Orchard Studio" loading="lazy"></div>
+            <div class="stay-card__copy">
+              <h3>The Orchard Studio</h3>
+              <p>A quiet retreat with soft light, thoughtful textures, and a sense of stillness that feels like a slower kind of luxury.</p>
+              <a class="stay-card__link" href="#">View stay <img src="assets/arrow-right.svg" width="16" height="16" alt=""></a>
+            </div>
+          </article>
+
+          <article class="stay-card" data-stay data-stay-name="The Meadow House" data-stay-desc="A spacious hideaway designed for unhurried days, long walks, and evenings in the landscape.">
+            <div class="stay-card__image"><img src="assets/image-14.png" alt="Interior of The Meadow House" loading="lazy"></div>
+            <div class="stay-card__copy">
+              <h3>The Meadow House</h3>
+              <p>A spacious hideaway designed for unhurried days, long walks, and evenings that feel deeply connected to the landscape.</p>
+              <a class="stay-card__link" href="#">View stay <img src="assets/arrow-right.svg" width="16" height="16" alt=""></a>
+            </div>
+          </article>
+
+          <article class="stay-card" data-stay data-stay-name="The Ridge Loft" data-stay-desc="A high-ceilinged retreat with natural light, calm materials, and a sense of elevation.">
+            <div class="stay-card__image"><img src="assets/image-18.png" alt="Interior of The Ridge Loft" loading="lazy"></div>
+            <div class="stay-card__copy">
+              <h3>The Ridge Loft</h3>
+              <p>A high-ceilinged retreat with natural light, calm materials, and a sense of elevation that makes every hour feel more intentional.</p>
+              <a class="stay-card__link" href="#">View stay <img src="assets/arrow-right.svg" width="16" height="16" alt=""></a>
+            </div>
+          </article>
+
+          <article class="stay-card" data-stay data-stay-name="The Garden Suite" data-stay-desc="A restorative space with soft tones, quiet comfort, and a connection to the outdoors.">
+            <div class="stay-card__image"><img src="assets/img-frame.png" alt="Interior of The Garden Suite" loading="lazy"></div>
+            <div class="stay-card__copy">
+              <h3>The Garden Suite</h3>
+              <p>A restorative space with soft tones, quiet comfort, and a connection to the outdoors that makes slowing down feel effortless.</p>
+              <a class="stay-card__link" href="#">View stay <img src="assets/arrow-right.svg" width="16" height="16" alt=""></a>
+            </div>
+          </article>
+        </div>
+
+        <!-- CTA -->
+        <div class="cta">
+          <div class="cta__copy">
+            <h2 class="h2">Ready to slow down?</h2>
+            <p>Browse our full collection of stays, from coastal retreats to quiet countryside escapes, and find the right pace for your next escape.</p>
+          </div>
+          <a class="btn btn--primary btn--light" href="#stays">Explore all stays</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ───────────── Footer ───────────── -->
+  <footer class="footer" id="contact">
+    <div class="footer__inner wrap">
+      <div class="footer__top">
+        <div class="footer__brand">
+          <a class="logo logo--footer" href="#top" aria-label="Solenne, back to top"><span>SOL</span><span class="logo__e">E</span><span>NNE</span></a>
+          <p>A collection of distinctive stays shaped by thoughtful design, natural beauty, and a sense of place.</p>
+
+          <form class="newsletter" novalidate>
+            <label class="newsletter__label" for="newsletter-email">Stay in touch</label>
+            <div class="newsletter__row">
+              <input class="newsletter__input" id="newsletter-email" name="email" type="email" placeholder="Email address" autocomplete="email" required>
+              <button class="btn btn--primary" type="submit">Join</button>
+            </div>
+            <p class="newsletter__status" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <nav class="footer__links" aria-label="Footer">
+          <div class="footer__col">
+            <h2>Explore</h2>
+            <ul>
+              <li><a href="#stays">Our stays</a></li>
+              <li><a href="#philosophy">Philosophy</a></li>
+              <li><a href="#">Journal</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h2>Company</h2>
+            <ul>
+              <li><a href="#">About</a></li>
+              <li><a href="#">Hosts</a></li>
+              <li><a href="#">Press</a></li>
+              <li><a href="#">Careers</a></li>
+            </ul>
+          </div>
+          <div class="footer__col">
+            <h2>Help</h2>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">Terms</a></li>
+              <li><a href="#">Privacy</a></li>
+              <li><a href="#">Accessibility</a></li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+
+      <hr class="footer__divider">
+
+      <div class="footer__bottom">
+        <p>© 2026 Solenne. All rights reserved.</p>
+        <ul class="footer__social">
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Pinterest</a></li>
+          <li><a href="#">Journal</a></li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ───────────── Search dialog ───────────── -->
+  <dialog class="search" id="search" aria-labelledby="search-title">
+    <form method="dialog" class="search__form" novalidate>
+      <div class="search__head">
+        <h2 id="search-title">Search stays</h2>
+        <button class="search__close" type="submit" aria-label="Close search">&times;</button>
+      </div>
+      <input class="search__input" id="search-input" type="search" placeholder="Try “coastal” or “loft”" autocomplete="off" aria-controls="search-results">
+      <ul class="search__results" id="search-results"></ul>
+      <p class="search__empty" hidden>No stays match that search.</p>
+    </form>
+  </dialog>
+</body>
+</html>
